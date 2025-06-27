@@ -7,7 +7,7 @@ Given a database of molecular compounds, we want to retrieve the top-k most chem
 ## 💡 Key Concepts
 
 - **Molecular Fingerprints**: Binary vectors representing the presence/absence of molecular substructures.
-- **Similarity Metric**: We used **Tanimoto similarity (Jaccard index)** to measure overlap between fingerprints.
+- **Similarity Metric**: I used **Tanimoto similarity (Jaccard index)** to measure overlap between fingerprints.
 - **Randomized Hashing**: Employed techniques inspired by **Locality-Sensitive Hashing (LSH)** and **minwise hashing** to reduce computation.
 - **Random Projections**: Explored sparse random projections to compress fingerprint vectors while preserving neighborhood similarity.
 
